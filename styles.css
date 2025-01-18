@@ -1,0 +1,77 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-width: 911px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px 120px 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    justify-self: end;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 120px 80px;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    flex: 1 1 auto;
+    max-width: 416px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.line {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin: 8px 3px;
+}
