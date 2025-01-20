@@ -1,4 +1,4 @@
-# lading_page_project
+# landing_page_project
 This is a project for a basic homepage where I will practice what I learned in the Flexbox lessons from the Foundations path of The Odin Project curriculum.
 
 ## Credits
