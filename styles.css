@@ -154,3 +154,12 @@ button {
     color: #E5E7EB;
     margin-top: 5px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-top: 120px;
+    text-align: center;
+    padding: 40px;
+}
