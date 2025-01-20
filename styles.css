@@ -75,3 +75,82 @@ button {
     padding: 5px 20px;
     margin: 8px 3px;
 }
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.featuresline {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 60px;
+}
+
+.imgfeature {
+    max-width: 200px;
+    min-width: 120px;
+    border: 3px solid #6a94d6;
+    border-radius: 10px;
+}
+
+.txtfeature {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    max-width: 200px;
+    min-width: 120px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 120px 180px 100px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 350;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+    max-width: 730px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.calltoaction button {
+    border: 2px solid white;
+}
+
+.firstp {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.secondp {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
